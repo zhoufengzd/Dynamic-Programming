@@ -34,7 +34,7 @@ public class Permutations<T> {
 		}
 		IValidator<Character> pv = null;
 		if (testData.get(0).indexOf('(') > -1)
-			pv = new ParensisValidator();
+			pv = new ParenthesisValidator();
 
 		for (String s : testData) {
 			ArrayList<Character> lst = new ArrayList<Character>();
